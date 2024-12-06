@@ -14,7 +14,7 @@ app.use(cors());
 
 // Routes
 app.get('/one-service/getDetails', (req, res) => {  
-  res.send(JSON.stringify({message: 'Response from service one'}));
+  res.send(JSON.stringify({message: 'Response from service one development'}));
 });
 app.get('/one-service/getInput/:input', (req, res) => {  
   res.send(JSON.stringify({message: `Input Response from service one is: ${req.params.input}`}));
